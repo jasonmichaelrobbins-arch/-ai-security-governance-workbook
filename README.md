@@ -57,9 +57,9 @@ This framework answers all of that with an opinionated, ready-to-use workbook. I
 | **Guardrail Checklist** | Verification checklist by product family with evidence requirements |
 | **Exception Tracker** | Track and manage exceptions for Severe-risk tools and guardrail deviations |
 | **Governance Guide** | Committee structure, lifecycle workflow, approval process, enforcement |
-| **Tool Function Mapping** | 41 functions mapped to risk levels, guardrails, and security products |
-| **AI Security Tool Landscape** | 58 vendors mapped to 7 product families |
-| **Compliance Mapping** | 40 guardrails mapped to 8 compliance frameworks |
+| **Tool Function Mapping** | 45 functions mapped to risk levels, guardrails, and security products (includes agentic AI) |
+| **AI Security Tool Landscape** | 74 vendors mapped to 7 product families |
+| **Compliance Mapping** | 46 guardrails mapped to 10 compliance frameworks |
 | **Program Metrics** | KPIs, SLOs, and measurement framework for program effectiveness |
 
 ---
@@ -210,17 +210,21 @@ Complete governance framework including:
 
 **Overall risk = HIGHEST rating across any factor**
 
-**41 Tool Functions** mapped to:
+**45 Tool Functions** mapped to:
 - Risk level
 - Required guardrails
 - Recommended security products
 - Product families
 
+**New in v2.0:** Agentic AI functions including MCP Server Integration, RAG/Vector Database operations, Multi-agent orchestration, Agent task delegation, and Autonomous decision-making.
+
 ---
 
 ### AI Security Tool Landscape
 
-**58 enterprise vendors** mapped to **7 product families**.
+**74 enterprise vendors** mapped to **7 product families**.
+
+**New in v2.0:** Added 16 vendors including Straiker, Maxim AI, Braintrust, LangFuse, Spectra Assure, Torq, Radiant Security, Stellar Cyber, Strata Identity, NVIDIA NeMo Guardrails, Holistic AI, Airia, Adri, Prophet Security, Hex Security. Updated acquisition status for Google/Wiz ($32B pending), Palo Alto/Protect AI, CrowdStrike/Pangea, Check Point/Lakera.
 
 | Family | Focus | Key Guardrails |
 |--------|-------|----------------|
@@ -242,15 +246,17 @@ Each vendor entry includes:
 
 ### Compliance Mapping
 
-**40 guardrails** mapped to **8 compliance frameworks:**
+**46 guardrails** mapped to **10 compliance frameworks:**
 
 | Framework | Full Name | Structure |
 |-----------|-----------|-----------|
 | CSA AI Safety | Cloud Security Alliance AI Controls (2024) | Shared responsibility model |
 | EU AI Act | European AI Regulation (2024) | Articles 9-17 for high-risk AI |
 | ISO 42001 | AI Management System Standard (2023) | Clauses 5-10; Annexes A, B |
-| MITRE ATLAS | Adversarial Threat Landscape for AI (2024) | 14 tactics, 80+ techniques |
+| MITRE ATLAS | Adversarial Threat Landscape for AI (2025) | 15 tactics, 66 techniques, 46 sub-techniques |
 | NIST AI RMF | AI Risk Management Framework 1.0 (2023) | GOVERN, MAP, MEASURE, MANAGE |
+| NIST AI 600-1 | Generative AI Profile (July 2024) | 200+ actions for GenAI risks |
+| NIST IR 8596 | Cybersecurity AI Profile (Draft Jan 2026) | AI-specific cybersecurity controls |
 | NIST CSF 2.0 | Cybersecurity Framework v2.0 (2024) | GOVERN, IDENTIFY, PROTECT, DETECT, RESPOND, RECOVER |
 | OWASP LLM Top 10 | LLM Application Security Risks (2025) | LLM01-LLM10 |
 | SOC 2 | Service Organization Control 2 (AICPA) | Trust Service Criteria |
@@ -275,8 +281,13 @@ Use for audit evidence and gap analysis.
 | Incident Rate | Security incidents involving AI tools | Monthly |
 | Vendor Risk Score | Average risk score across AI vendors | Quarterly |
 | Training Completion | % of users completing AI security training | Quarterly |
+| **Agent Inventory Coverage** | % of AI agents registered vs. discovered | Weekly |
+| **Autonomous Action Rate** | % of agent actions without human approval | Monthly |
+| **Agent Incident Rate** | Security incidents involving AI agents | Monthly |
 
 **Service Level Objectives (SLOs)** included for each metric with targets and thresholds.
+
+**New in v2.0:** Added Agentic AI-specific KPIs to track agent deployments, autonomous actions, and agent-related incidents.
 
 ---
 
@@ -309,15 +320,17 @@ Required families are determined by tool risk level and functions.
 
 ## Compliance Frameworks
 
-The framework maps controls to 8 industry frameworks:
+The framework maps controls to 10 industry frameworks:
 
 - **CSA AI Safety** — Cloud-focused AI controls
 - **EU AI Act** — European regulatory requirements
 - **ISO 42001** — AI management system standard
-- **MITRE ATLAS** — Adversarial threat coverage
+- **MITRE ATLAS** — Adversarial threat coverage (2025 edition)
 - **NIST AI RMF** — US government AI risk framework
+- **NIST AI 600-1** — Generative AI Profile (July 2024)
+- **NIST IR 8596** — Cybersecurity AI Profile (Draft Jan 2026)
 - **NIST CSF 2.0** — General cybersecurity framework
-- **OWASP LLM Top 10** — LLM-specific vulnerabilities
+- **OWASP LLM Top 10** — LLM-specific vulnerabilities (2025 edition)
 - **SOC 2** — Service organization controls
 
 ---
