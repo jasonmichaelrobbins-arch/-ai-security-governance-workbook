@@ -1,0 +1,17 @@
+AI Security Governance Workbook
+Copyright 2026 Jason Robbins
+
+This product includes the AI Security Risk Workbook v3.0, the AI Intake Form
+and the ai-tool-risk-assessment Claude skill, developed by Jason Robbins
+(https://github.com/jasonmichaelrobbins-arch) and licensed under the Apache
+License, Version 2.0.
+
+Vendor and product names on the AI Security Tool Landscape tab and elsewhere
+are used to identify those products and do not imply endorsement of, or
+affiliation with, the vendors named. Framework names and control identifiers
+(CSA AI Controls Matrix, EU AI Act, ISO/IEC 42001, MITRE ATLAS, NIST AI RMF,
+NIST AI 600-1, OWASP, AICPA SOC 2) belong to their respective owners; this
+work cites them by name and identifier and does not reproduce their text.
+
+The worked example records describe fictional organizations, vendors and
+products. Any resemblance to a real product or vendor is unintended.

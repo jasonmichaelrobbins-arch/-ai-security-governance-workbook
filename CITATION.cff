@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this workbook or skill, please cite it as below."
+title: "AI Security Governance Workbook"
+version: "3.0"
+date-released: "2026-10-14"
+license: Apache-2.0
+repository-code: "https://github.com/jasonmichaelrobbins-arch/-ai-security-governance-workbook"
+authors:
+  - family-names: Robbins
+    given-names: Jason
+keywords:
+  - AI security
+  - AI governance
+  - risk assessment
+  - guardrails
+  - agentic AI
